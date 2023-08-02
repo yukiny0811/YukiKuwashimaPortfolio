@@ -144,9 +144,9 @@ let BodyBlock = body {
             descContent("iOS App Developer (Swift)")
             descContent("Graphics Engineer (Swift & Metal)")
             
+            // aaa
             titleContent("Fluid Simulation")
             descContent("Simulating fluid dynamics for animation.")
-            
             hstack {
                 projContent(
                     projTitle: "Snow Simulation",
@@ -184,6 +184,48 @@ let BodyBlock = body {
             .width(100, unit: .percentage)
             .css("justify-content", "flex-start")
             .css("flex-wrap", "wrap")
+            
+            // aaa
+            titleContent("Generative Art")
+            descContent("Computer artworks generated from random parameters.")
+            hstack {
+                projContent(
+                    projTitle: "Lonely Plants",
+                    projDesc: "Observe the lonely lives.\nL-System Algorithm used for plant generation.\nStable Fluids algorithm used for plant decaying.",
+                    madeWithDesc: "Made with Julia (February 2022)",
+                    links: [
+                        "https://youtu.be/iCUKV16Fevs",
+                        "https://github.com/yukiny0811/mpm-snow"
+                    ],
+                    imagePath: "Images/mpmsnow.png",
+                    wordColor: "black"
+                )
+                
+                projContent(
+                    projTitle: "Liquid Animation",
+                    projDesc: "Implementation of “Stable Fluids”",
+                    madeWithDesc: "Made with Openframeworks (May 2021)",
+                    links: [
+                        "https://youtu.be/fD4M3d0RW7A",
+                        "https://github.com/yukiny0811/stable_fluids_test"
+                    ],
+                    imagePath: "Images/stablefluids.png",
+                    wordColor: "white"
+                )
+                
+                projContent(
+                    projTitle: "Ocean Plastic Simulation",
+                    projDesc: "Animation of decaying plastics and animals in the ocean.",
+                    madeWithDesc: "Made with Python & Taichi (June 2021)",
+                    links: [],
+                    imagePath: "Images/noimage.png",
+                    wordColor: "white"
+                )
+            }
+            .width(100, unit: .percentage)
+            .css("justify-content", "flex-start")
+            .css("flex-wrap", "wrap")
+            
         }
         .width(95, unit: .percentage)
     }
