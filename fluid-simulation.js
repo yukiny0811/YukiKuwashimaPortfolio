@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const VISCOSITY = 0.0;
     const VELOCITY_DISSIPATION = 0.999;
     const DENSITY_DISSIPATION = 0.999;
-    const FORCE_MULTIPLIER = 1000.0;
+    const FORCE_MULTIPLIER = 3000.0;
     const COLOR_MULTIPLIER = 10.0;
     const SPLAT_RADIUS = 0.01;
     
@@ -754,8 +754,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // Only add force if there's significant mouse movement or if mouse is down
         if ((Math.abs(dx) > 0.001 || Math.abs(dy) > 0.001) || mouseDown) {
             // Calculate force based on mouse movement
-            let forceX = dx * FORCE_MULTIPLIER * 3.0;
-            let forceY = dy * FORCE_MULTIPLIER * 3.0;
+            let forceX = dx * FORCE_MULTIPLIER * 30.0;
+            let forceY = dy * FORCE_MULTIPLIER * 30.0;
             
             // Adjust radius and force based on whether mouse is down
             const radiusMultiplier = mouseDown ? 1.5 : 1.0;

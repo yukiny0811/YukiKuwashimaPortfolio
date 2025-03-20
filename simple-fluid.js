@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Simple fluid effect initializing...');
     
     // Get container element
-    const container = document.getElementById('fluid-canvas-container');
+    const container = document.getElementById('webgl-fluid-container');
     if (!container) {
         console.error('Container element not found!');
         return;
