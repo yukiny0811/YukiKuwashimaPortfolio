@@ -1,0 +1,91 @@
+
+My Projects
+
+read this file, and create the "My Projects" section.
+Image assets can be obtained from assets/ if available. or else, you can use the image from the link below. 
+
+[Swifty Creatives Framework]
+https://github.com/yukiny0811/swifty-creatives
+A creative coding framework for Swift that fulfills your wish: “I want to do creative coding in Swift!” This framework doesn't simply wrap functions from Processing or OpenFrameworks; it's built entirely from scratch using Metal and Swift—from shaders and coordinate calculations to transparency handling and input/output.
+tags: Swift, Metal, iOS, macOS, visionOS, 3DGraphics, CreativeCoding, OSS
+year: 2023
+
+[EasyMetalShader]
+https://github.com/yukiny0811/EasyMetalShader
+​EasyMetalShader is a Swift library that simplifies the creation of Metal shader pipelines. By defining variables in your class, you can effortlessly pass them to shaders. The library provides predefined variables like gid for [[thread_position_in_grid]], streamlining shader development.
+tags: Swift, Metal, iOS, macOS, visionOS, Shader, OSS
+year: 2024
+
+[Sensible Paster]
+https://apps.apple.com/jp/app/sensible-paster/id1553906835?mt=12
+Sensible Paster is a macOS application that allows users to extract text from selected screen areas, similar to taking a screenshot. The extracted text is automatically copied to the clipboard for easy pasting. All text recognition is performed on-device, ensuring functionality even offline.
+tags: Swift, macOS, OCR
+year: 2021
+
+[Depse]
+https://apps.apple.com/us/app/depse/id1639669245
+https://apps.apple.com/jp/story/id1681707216?l=en-US
+​Depse is an image editing app designed for iOS 16's lock screen customization. It allows users to separately edit subjects and backgrounds, adjust brightness, saturation, and color tones, and offers over 30 original preset filters. The app also features a clock guide for easy shooting and editing, optimizing images for the lock screen's depth effect. Additionally, users can draw inspiration from works by creators worldwide. ​
+Developed by a team of three, and my contributions included implementing image processing using Metal, designing the Discover tab interface, creating shaders, and making various detailed adjustments.
+tags: Swift, iOS, macOS, visionOS, 3DGraphics, Metal Shader
+year: 2023
+
+[Ars Electronica 2023]
+https://www.youtube.com/watch?v=4YYHjoOBvEY
+https://ars.electronica.art/futurelab/de/projects-data-art-science-project-2023/#Wakita
+​In this project, each particle is composed of characters from the IPCC report. Using fluid simulation algorithms, the visualization depicts the text melting alongside glaciers, symbolizing the effects of climate change. I was responsible for implementing the glacier segment, which spans 90 seconds.
+tags: Swift, Metal, CreativeCoding, Art, Graphics
+year: 2023
+
+[Club Ninja]
+LineYahoo HackU 2024 - Happy Hacking Award
+Club Ninja is an innovative game blending bullet-hell shooters and rhythm games. Players slash through enemies and dodge bullets, all synchronized perfectly to dynamic music. Three types of rhythm notes challenge players to time their attacks precisely, delivering an entirely new gaming experience.
+I was responsible for all technical engineering, while Kairi Haruna handled all sound engineering.
+tags: Swift, Metal, Sound, Game, CreativeCoding
+year: 2024
+
+[Sapporo International Art Festival 2024]
+https://www.facebook.com/story.php/?story_fbid=912373287255551&id=100054486638964
+​At the Sapporo International Art Festival 2024 (SIAF2024), fluid simulations were employed to depict Earth's crustal movements. I was responsible for implementing a 5-minute segment, including the section shown in the image.
+tags: Swift, Metal, Fluid, Art, Graphics
+year: 2024
+
+[EasyNodeEditor]
+https://github.com/yukiny0811/easy-node-editor
+EasyNodeEditor is a SwiftUI library designed to simplify the creation of node editors. Its primary goal is to minimize internal complexity, allowing developers to focus on node creation. The library is currently in the alpha stage of development.
+tags: Swift, Metal, Graphics, CreativeCoding, OSS
+year: 2022
+
+[SVGSwiftUI]
+https://github.com/yukiny0811/SVGSwiftUI 
+SVGSwiftUI is a SwiftUI library that enables rendering of SVG files by converting them into SwiftUI Paths. This allows for seamless integration of SVG graphics into SwiftUI applications. 
+tags: Swift, iOS, macOS, OSS
+year: 2025
+
+[EasyShaderView]
+https://github.com/yukiny0811/EasyShaderView
+Simple Metal View for SwiftUI
+tags: SwiftUI, Metal, OSS
+year: 2024
+
+[TextureRenderer]
+https://github.com/yukiny0811/TextureRenderer
+Simple MTLTexture Renderer for SwiftUI
+tags: SwiftUI, Metal, OSS
+year: 2024
+
+[MetalVertexHelper]
+https://github.com/yukiny0811/MetalVertexHelper
+Converts Swift structs into C-compatible tuples, including necessary padding for alignment.
+tags: Swift, Metal, C, OSS
+year: 2025
+
+[Swift Path Tracer]
+Swift+Metal Path Tracer. Runs in realtime.
+tags: Swift, Metal, 3DGraphics, Rendering, PathTracing
+year: 2025
+
+[Lens Simulation]
+Swift+Metal Path Tracer with Lens Simulation.
+tags: Swift, Metal, 3DGraphics, Rendering, PathTracing, Lens Simulation
+year: 2025
