@@ -16,7 +16,17 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="script.js" defer></script>
-    <script src="fluid-simulation.js" defer></script>
+    <!-- Device-specific fluid simulation scripts -->
+    <script>
+        // Check if the device is mobile
+        if (window.innerWidth <= 768) {
+            // Mobile version
+            document.write('<script src="mobile-fluid-simulation.js" defer><\/script>');
+        } else {
+            // Desktop version
+            document.write('<script src="fluid-simulation.js" defer><\/script>');
+        }
+    </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>

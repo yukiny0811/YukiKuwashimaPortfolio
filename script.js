@@ -96,21 +96,11 @@ document.addEventListener('DOMContentLoaded', function() {
     animateSkillBars();
     window.addEventListener('scroll', animateSkillBars);
     
-    // Add animation to project cards
+    // Remove animation for project cards - they should be visible immediately
     const projectCards = document.querySelectorAll('.project-card');
-    
-    function animateProjectCards() {
-        projectCards.forEach((card, index) => {
-            if (isInViewport(card) && !card.classList.contains('animated')) {
-                card.classList.add('animated');
-                card.style.animation = `fadeInUp 0.5s ease forwards ${index * 0.2}s`;
-            }
-        });
-    }
-    
-    // Initial check and add scroll event listener
-    animateProjectCards();
-    window.addEventListener('scroll', animateProjectCards);
+    projectCards.forEach(card => {
+        card.style.opacity = '1';
+    });
     
     // Add CSS for animations
     const style = document.createElement('style');
@@ -136,11 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         .project-card {
-            opacity: 0;
-        }
-        
-        .project-card.animated {
-            opacity: 1;
+            opacity: 1; /* Make project cards visible by default */
         }
     `;
     document.head.appendChild(style);
